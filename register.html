@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="theme-color" content="#209290"/>
+        <title>اشترك معنا</title>
+        <link rel="stylesheet" href="register.css">
+        <link rel="icon" href="images/tabicon.png" type="image/icon type">
+       </head>
+
+  <body>
+<div class="rod">
+<a href="index.html"><img class="im1" src="images/ss.png" alt=""></a>
+</div>
+<div class="register">
+    <div class="form">
+
+<form method="post" autocomplete="off" name="google-sheet">
+        <label>الاسم ثنائي</label><br>
+        <input type="text"  name="Name"><br>
+
+           <label>رقم الهاتف </label><label class="Regionword">المنطقة</label><br>
+        <input class="phone" type="number" name="Phone">
+        <select class="Region" name="Region">
+          <option value="حدائق حلوان">حدائق حلوان</option>
+          <option value="حدائق المعادي">حدائق المعادي</option>
+          <option value="دار السلام">دار السلام</option>
+          <option value="البساتين">البساتين</option>
+        </select><br>
+
+        <label>العنوان</label><br>
+        <input type="text" id="address" name="Address"><br>
+        <label> اختر هديتك </label><br>
+
+        <select name="gift" >
+          <option value="فلوس">5 جنيه للكيلو </option>
+          <option value="مناديل">2 باكيت فاين 550 منديل</option>
+          <option value="صابون">4 كيلو صابون سائل</option>
+          <option value="أكياس">كيلو إلا ربع أكياس للقمامة</option>
+          <option value="كلور">8 لتر كلور</option>
+          <option value="مكرونة">4 أكياس مكرونة حوراء</option>ر</option>
+        </select><br>
+
+  <a href="https://www.google.com/"><input type="submit" name="submit"  id="submit" value="تأكيد الطلب"></a>
+</form>
+    </div>
+</div>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxS_C8Uieytb0LHSJxFgY3mh64HSu26vMKD83WsLXUJa5VLcOw/exec'
+    const form = document.forms['google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("تم تأكيد الطلب سيتم التواصل معك 😄"))
+        .catch(error => console.error('حدث خطأ يرجى التأكد لاحقًا', error.message))
+    })
+  </script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  </body>
+</html>
