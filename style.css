@@ -600,7 +600,7 @@ ul li a:hover{
 
     #first{
         width: 48%;
-        font-size: 90px;
+        font-size: 500%;
         line-height: 1.27;
         margin-right: 20px;
         margin-left: 10px;
@@ -608,7 +608,7 @@ ul li a:hover{
        
     }
     .p1{
-        font-size: 42px;
+        font-size: 38px;
         width: 42%;
         margin-right: 28px;
         margin-left: 10px;
