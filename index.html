@@ -54,8 +54,7 @@
       </div>
       </div>
 
-      <div id="q1" >
-
+ <div id="q1" >
 
  <div id="" class="conhow">
       <h1 id="first">مــــــا هـــــــي خـــــدمـــــــــة مجتمع نقــــاء البيـئيــــــــــــة لاستبــــــــــدال زيـــــت القلــي المستعمـــــــل؟</h1>
@@ -76,13 +75,63 @@
   <img class="four" src="images/ashive.png" alt="">
   <img class="oil" src="images/fram.png" alt="">
 
-
-
 </div>
 
 
 
 </div>
+
+
+<div id="arqamcon">
+  <div class="arqam">
+    
+    <h1 id="second">عـــــــــــــــدد عمــــــــــــلاء مجتمـــــــــــع  نقـــــــــــــــاء فـي مصـــــــر</h1>
+   
+  
+<div class="numbers">
+    <section class="three2">
+      <div class="nums">
+        <div class="num" data-goal="2000">0</div>
+        
+
+      </div>
+
+      
+    </section>
+
+    <div style="font-size: 125px;text-align: center; color: #4caf68;">عـميــل إيجــابي</div>
+  </div>
+  
+  </div>
+  
+  
+  
+  </div>
+
+
+  <script>let nums = document.querySelectorAll(".nums .num");
+    let section = document.querySelector(".three");
+    let started = false; // Function Started ? No
+    
+    window.onscroll = function () {
+      if (window.scrollY >= section.offsetTop) {
+        if (!started) {
+          nums.forEach((num) => startCount(num));
+        }
+        started = true;
+      }
+    };
+    
+    function startCount(el) {
+      let goal = el.dataset.goal;
+      let count = setInterval(() => {
+        el.textContent++;
+        if (el.textContent == goal) {
+          clearInterval(count);
+        }
+      }, 2000 / goal);
+    }</script>
+  
 
 
 
