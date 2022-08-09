@@ -640,10 +640,9 @@ ul li a:hover{
     .x{
         display: block;
         position: absolute;
-        right: 356px;
-        top: 1325px;
+        right: -109px;
+        top: 1822px;
         z-index: 4;
-          
 }
 
 .oil{
@@ -745,7 +744,7 @@ width: 1000px;}
 
     #second{
         width: 48%;
-        font-size: 90px;
+        font-size:  500%;
         line-height: 1.27;
         margin-right: 20px;
         margin-left: 10px;
@@ -762,8 +761,8 @@ width: 1000px;}
     }
 
     .p2 {
-        font-size: 42px;
-        width: 42%;
+        font-size: 39;
+        width: 41%;
         margin-right: 28px;
         margin-left: 10px;
     }
@@ -775,7 +774,7 @@ height: 170px;}
 
 
     .slider{
-        height: 100hv;
+        height: 90vh;
         margin-top:0px;
        
         background-image: url(images/mobslider.png);
@@ -864,6 +863,7 @@ height: 170px;}
         background-color: rgba(255, 255, 255, 0.9);
         overflow-x: hidden;
         transition: 0.5s;
+        z-index: 10;
       }
       
       .overlay-content {
