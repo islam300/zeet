@@ -173,9 +173,40 @@ border-bottom: #8EB44B solid 10px;
     display: inline-block;
     padding-top: 15px;
 
-
-
 }
+
+
+
+.numbers {
+    width: 100%;
+    height: 100%;
+    margin-right: 50px;
+}
+
+
+
+section {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nums {
+    width: 100%;
+    display: flex;
+  }
+  .nums .num {
+    flex: 1;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 150px;
+    padding: 20px;
+    color: #4caf68;
+
+  }
+
+
     
 .steps{
     width:  531px;
@@ -208,6 +239,16 @@ border-bottom: #8EB44B solid 10px;
 }
 
 
+#arqamcon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 89vh
+
+}
+
+
 
 .ach{
 
@@ -225,6 +266,26 @@ border-bottom: #8EB44B solid 10px;
      
      box-shadow: 0 7px 15px #0000003b;
      
+
+}
+
+
+
+.arqam{
+
+    margin-top: 50px; 
+    margin-bottom: 20px;
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: center;
+ 
+     height: 485px;
+     width: 90%;
+     background-color: #fcfcd338;
+   
+     overflow: hidden;
+     
+     box-shadow: 0 7px 15px #0000003b;
 
 }
 
@@ -622,6 +683,13 @@ ul li a:hover{
     }
 
 
+    .numbers {
+        width: 41%;
+        height: 100%;
+        margin-right: 50px;
+    }
+    
+
     .steps{
     
       
@@ -674,21 +742,44 @@ width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    height: 22vh;
+   height: auto;
 } 
+
+#arqamcon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
+}
+
+
+.arqam{
+    padding-top: 60px;
+    padding-bottom: 80px;
+        width: 95%;
+        height: auto;
+    
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+
+.nums .num {
+    flex: 1;
+margin-top: 0px;
+    text-align: center;
+    font-size: 135px;
+    padding: 20px;
+    color: #4caf68;
+}
     
 
 .ved{
     padding: 20px;
 }
-    .video{
-width: 1000px;}
-    
-       h2{ width: 450px;
-       padding: 40px;
-           font-size: 70px;  
-           border-radius: 3%;  
-       }
+
     .conhow{
        
         padding-top: 38px;
@@ -704,7 +795,7 @@ width: 1000px;}
     .formcounter{
         height: 2047px;
         margin-bottom: 100px;
-        margin-top: 1121px;
+        margin-top: auto;
     }
          
     
@@ -723,11 +814,13 @@ width: 1000px;}
 
 
 
+
+
     .formdiv{
         margin-bottom: 50px;
         width: 95%;
-        height: 1750px;
-        margin-top: 296px;
+        height: auto;
+        margin-top: 42px;
         background-color: #209290;
         padding-top: 50px;
         padding-bottom: 50px;
