@@ -1,0 +1,110 @@
+*{margin:0;
+    box-sizing: border-box;}
+   /* header */
+   html {scroll-behavior: smooth;}
+   
+   body{
+       direction: rtl;
+     
+       background-size: 8Z00px;
+   background-image: url(images/pattern.png);
+   background-repeat: repeat;
+   
+   background-color:#0fd73a16;}
+
+
+   .counter{
+
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+   }
+
+
+.div1{
+
+
+width: 100%;
+
+display: flex;
+justify-content:center;
+align-content: center;
+
+}
+   .done{
+
+    width: 200px;
+
+
+   }
+
+
+   .TEXT{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #209290;
+    font-weight: bold;
+   }
+
+.back{
+
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+    color: #209290;
+    
+   }
+a{
+
+    color: hsl(123, 93%, 42%);
+}
+
+a:hover{
+    color: #dfce18;
+}
+
+
+   @media screen and (max-width: 1100px) {
+
+
+
+    .done{
+
+        width: 500px;
+    
+    
+       }
+
+
+
+       
+   .TEXT{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 80px;
+    color: #209290;
+    font-weight: bold;
+   }
+
+   .back{
+
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 50px;
+    color: #209290;
+    
+   }
+
+   a{
+
+    font-size: 65px;
+   }
+
+
+   }
