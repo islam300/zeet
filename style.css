@@ -12,15 +12,19 @@ background-image: url(images/pattern.png);
 background-repeat: repeat;
 background-color:#0fd73a16;
 
+
 }
+
 
 
 img.logo {
     width: 200px;
     margin: 13px;
+    
 }
 img.logo:hover{
     opacity: 80%;
+ 
 }
 
 .header{
@@ -45,11 +49,14 @@ img.logo:hover{
     padding-left:20px;
     padding-right:20px;
     padding-top: 5px;
+   
+    
     
 }
 ul li.active a,
 ul li a:hover{
     color: #dfce18;
+    outline: none;
 }
 .bar-container ul li a {
     font-size: 30px;
@@ -672,7 +679,9 @@ ul li a:hover{
 /*end footer*/
 
 
-
+a:hover{
+    outline: none;
+}
 
 
   
@@ -927,7 +936,7 @@ height: 170px;}
 
     .slider{
         
-        height: 85vh;
+        height: 80vh;
         margin-top: 0px;
         margin-bottom: 200px;
         background-image: url(images/mobslider.png);
