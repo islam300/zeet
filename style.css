@@ -747,7 +747,7 @@ ul li a:hover{
     }
 
     .steps2{
-        top: 26px;
+        top: -80px;
         width: 900px;
         right: -636px;
         z-index: 3;
@@ -928,7 +928,7 @@ height: 170px;}
     .slider{
         height: 70vh;
         margin-top: 0px;
-        margin-bottom: 130px;
+        margin-bottom: 200px;
         background-image: url(images/mobslider.png);
         background-size: cover;
         display: flex;
@@ -956,7 +956,7 @@ height: 170px;}
         background-color: rgba(153, 205, 50, 0.733);
         position: absolute;
         right: -147px;
-        top: 128px;
+        top: 26px;
      }
     .b1{
         margin-top: 80px;
