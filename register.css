@@ -3,17 +3,31 @@
 
     body{
         direction: rtl;
-        background-color: #209290;
-        background-image: url(images/back.png);
-        background-size: 100%;
-        background-position: center;
+  
+        background-size: 8Z00px;
+    background-image: url(images/pattern.png);
+    background-repeat: repeat;
+    background-color:#0fd73a16;
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
         }
+        
+
+.conunter{
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+height: 100vh;
+width: 100%;
+align-content: center;
+}
         
         
         .register{ width: 400px;
             height: 500px;
-            background-color: rgb(255, 255, 255,0.1);
-           margin-right: 100px;
+            background-color: rgba(70, 166, 17, 0.695);
+          
             margin-top: 60px;
             border-radius: 1%;
             box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
@@ -95,10 +109,15 @@ input::-webkit-inner-spin-button {
     @media screen and (max-width: 1100px) {
 
         body{
-            background-color: #209290;
-            background-image: url(images/backmob.png);
-            background-size: cover;
-            background-repeat: no-repeat;
+            direction: rtl;
+  
+            background-size: 8Z00px;
+        background-image: url(images/pattern.png);
+        background-repeat: repeat;
+        background-color:#0fd73a16;
+        display: flex;
+flex-wrap: wrap;
+justify-content: center;
            
             }
         .rod{display: flex;
@@ -111,7 +130,7 @@ input::-webkit-inner-spin-button {
             width: 800px;
             height: 1200px;
             margin-top: 50px;
-            margin-right: 100px;
+          
             margin-bottom: 200px;
             display: flex;
             justify-content: center;
