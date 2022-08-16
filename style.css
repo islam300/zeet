@@ -926,7 +926,8 @@ height: 170px;}
 
 
     .slider{
-        height: 70vh;
+        
+        height: 80vh;
         margin-top: 0px;
         margin-bottom: 200px;
         background-image: url(images/mobslider.png);
