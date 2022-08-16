@@ -928,12 +928,13 @@ height: 170px;}
     .slider{
         height: 70vh;
         margin-top: 0px;
-        margin-bottom: 100px;
+        margin-bottom: 130px;
         background-image: url(images/mobslider.png);
         background-size: cover;
         display: flex;
         align-items: center;
         justify-content: center;
+        background-attachment: scroll;
     }
 
     
