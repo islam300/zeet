@@ -928,7 +928,7 @@ height: 170px;}
     .slider{
         height: 70vh;
         margin-top: 0px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         background-image: url(images/mobslider.png);
         background-size: cover;
         display: flex;
@@ -950,7 +950,7 @@ height: 170px;}
         
         height: 350px;
         width: 350px;
-        font-size: 53px;
+        font-size: 49px;
         border-radius: 300px;
         background-color: rgba(153, 205, 50, 0.733);
         position: absolute;
